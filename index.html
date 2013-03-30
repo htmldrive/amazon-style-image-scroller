@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Amazon style image and title scroller</title>
+<link href="css/amazon_scroller.css" rel="stylesheet" type="text/css"></link>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/amazon_scroller.js"></script>
+</head>
+    <body>
+        <script language="javascript" type="text/javascript">
+
+            $(function() {
+                $("#amazon_scroller1").amazon_scroller({
+                    scroller_title_show: 'enable',
+                    scroller_time_interval: '4000',
+                    scroller_window_background_color: "#CCC",
+                    scroller_window_padding: '10',
+                    scroller_border_size: '1',
+                    scroller_border_color: '#000',
+                    scroller_images_width: '124',
+                    scroller_images_height: '160',
+                    scroller_title_size: '12',
+                    scroller_title_color: 'black',
+                    scroller_show_count: '4',
+                    directory: 'images'
+                });
+				$("#amazon_scroller2").amazon_scroller({
+                    scroller_title_show: 'disable',
+                    scroller_time_interval: '3000',
+                    scroller_window_background_color: "none",
+                    scroller_window_padding: '10',
+                    scroller_border_size: '0',
+                    scroller_border_color: '#CCC',
+                    scroller_images_width: '100',
+                    scroller_images_height: '80',
+                    scroller_title_size: '12',
+                    scroller_title_color: 'black',
+                    scroller_show_count: '2',
+                    directory: 'images'
+                });
+				$("#amazon_scroller3").amazon_scroller({
+                    scroller_title_show: 'enable',
+                    scroller_time_interval: '3000',
+                    scroller_window_background_color: "none",
+                    scroller_window_padding: '10',
+                    scroller_border_size: '2',
+                    scroller_border_color: '#9C6',
+                    scroller_images_width: '124',
+                    scroller_images_height: '160',
+                    scroller_title_size: '11',
+                    scroller_title_color: 'black',
+                    scroller_show_count: '3',
+                    directory: 'images'
+                });
+            });
+        </script>
+	<h1>Amazon style image and title scroller</h1>
+        <h2>Demo</h2>
+        <div id="amazon_scroller1" class="amazon_scroller">
+            <div class="amazon_scroller_mask">
+                <ul>
+                    <li><a href="http://www.amazon.com/gp/product/1935182323/ref=as_li_tf_il?ie=UTF8&tag=html061-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=1935182323" title="jQuery in Action, Second Edition" target="_blank"><img src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=1935182323&MarketPlace=US&ID=AsinImage&WS=1&tag=html061-20&ServiceVersion=20070822" width="124" height="160" alt="jQuery in Action, Second Edition"/></a></li>
+                    <li><a href="http://www.amazon.com/gp/product/0596159773/ref=as_li_ss_il?ie=UTF8&tag=html061-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0596159773" title="jQuery Cookbook: Solutions & Examples for jQuery Developers (Animal Guide)" target="_blank"><img src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0596159773&MarketPlace=US&ID=AsinImage&WS=1&tag=html061-20&ServiceVersion=20070822" width="124" height="160" alt="jQuery Cookbook: Solutions & Examples for jQuery Developers (Animal Guide) [Paperback]"/></a></li>
+                    <li><a href="http://www.amazon.com/gp/product/0980576857/ref=as_li_ss_il?ie=UTF8&tag=html061-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0980576857" title="jQuery: Novice to Ninja" target="_blank"><img src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0980576857&MarketPlace=US&ID=AsinImage&WS=1&tag=html061-20&ServiceVersion=20070822" width="124" height="160" alt="jQuery: Novice to Ninja"/></a></li>
+                    <li><a href="http://www.amazon.com/gp/product/0321430840/ref=as_li_ss_il?ie=UTF8&tag=html061-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0321430840" title="HTML, XHTML, and CSS, Sixth Edition" target="_blank"><img src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0321430840&MarketPlace=US&ID=AsinImage&WS=1&tag=html061-20&ServiceVersion=20070822" width="124" height="160" alt="HTML, XHTML, and CSS, Sixth Edition"/></a></li>
+                    <li><a href="http://www.amazon.com/gp/product/0321344758/ref=as_li_ss_il?ie=UTF8&tag=html061-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0321344758" title="Don't Make Me Think: A Common Sense Approach to Web Usability, 2nd Edition" target="_blank"><img src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0321344758&MarketPlace=US&ID=AsinImage&WS=1&tag=html061-20&ServiceVersion=20070822" width="124" height="160" alt="Don't Make Me Think: A Common Sense Approach to Web Usability, 2nd Edition"/></a></li>
+                    <li><a href="http://www.amazon.com/gp/product/059610197X/ref=as_li_ss_il?ie=UTF8&tag=html061-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=059610197X" title="Head First HTML with CSS & XHTML" target="_blank"><img src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=059610197X&MarketPlace=US&ID=AsinImage&WS=1&tag=html061-20&ServiceVersion=20070822" width="60" height="60" alt="Head First HTML with CSS & XHTML"/></a></li>
+                    <li><a href="http://www.amazon.com/gp/product/0596517742/ref=as_li_ss_il?ie=UTF8&tag=html061-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0596517742" title="JavaScript: The Good Parts" target="_blank"><img src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0596517742&MarketPlace=US&ID=AsinImage&WS=1&tag=html061-20&ServiceVersion=20070822" width="60" height="60" alt="JavaScript: The Good Parts"/></a></li>
+                    <li><a href="http://www.amazon.com/gp/product/0321564081/ref=as_li_ss_il?ie=UTF8&tag=html061-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0321564081" title="JavaScript and Ajax for the Web: Visual QuickStart Guide" target="_blank"><img src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0321564081&MarketPlace=US&ID=AsinImage&WS=1&tag=html061-20&ServiceVersion=20070822" width="60" height="60" alt="JavaScript and Ajax for the Web: Visual QuickStart Guide"/></a></li>
+                </ul>
+            </div>
+            <ul class="amazon_scroller_nav">
+                <li></li>
+                <li></li>
+            </ul>
+            <div style="clear: both"></div>
+        </div>
+        <hr/>
+        <div id="amazon_scroller2" class="amazon_scroller">
+                   <div class="amazon_scroller_mask">
+                       <ul>
+                           <li><a href="link1" title="title1"><img src="images/scroller_large_1.jpg" width="60" height="60" alt="title"/></a></li>
+                           <li><a href="link2" title="title2"><img src="images/scroller_large_2.jpg" width="60" height="60" alt="title"/></a></li>
+                           <li><a href="link3" title="title3"><img src="images/scroller_large_3.jpg" width="60" height="60" alt="title"/></a></li>
+                           <li><a href="link4" title="title4"><img src="images/scroller_large_4.jpg" width="60" height="60" alt="title"/></a></li>
+                           <li><a href="link1" title="title5"><img src="images/scroller_large_1.jpg" width="60" height="60" alt="title"/></a></li>
+                           <li><a href="link2" title="title6"><img src="images/scroller_large_2.jpg" width="60" height="60" alt="title"/></a></li>
+                           <li><a href="link3" title="title7"><img src="images/scroller_large_3.jpg" width="60" height="60" alt="title"/></a></li>
+                           <li><a href="link4" title="title8"><img src="images/scroller_large_4.jpg" width="60" height="60" alt="title"/></a></li>
+                       </ul>
+                   </div>
+                   <ul class="amazon_scroller_nav">
+                       <li></li>
+                       <li></li>
+                   </ul>
+                   <div style="clear: both"></div>
+    </div>
+               <hr/>
+               <div id="amazon_scroller3" class="amazon_scroller">
+                   <div class="amazon_scroller_mask">
+                       <ul>
+                           <li><a href="http://www.amazon.com/gp/product/0596806027/ref=as_li_ss_il?ie=UTF8&tag=html061-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0596806027" title="HTML5: Up and Running" target="_blank"><img src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0596806027&MarketPlace=US&ID=AsinImage&WS=1&tag=html061-20&ServiceVersion=20070822" width="124" height="160" alt="HTML5: Up and Running"/></a></li>
+                           <li><a href="http://www.amazon.com/gp/product/0596805780/ref=as_li_ss_il?ie=UTF8&tag=html061-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0596805780" title="Building iPhone Apps with HTML, CSS, and JavaScript: Making App Store Apps Without Objective-C or Cocoa " target="_blank"><img src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0596805780&MarketPlace=US&ID=AsinImage&WS=1&tag=html061-20&ServiceVersion=20070822" width="124" height="160" alt="Building iPhone Apps with HTML, CSS, and JavaScript: Making App Store Apps Without Objective-C or Cocoa "/></a></li>
+                           <li><a href="http://www.amazon.com/gp/product/0596802447/ref=as_li_ss_il?ie=UTF8&tag=html061-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0596802447" title="CSS: The Missing Manual" target="_blank"><img src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0596802447&MarketPlace=US&ID=AsinImage&WS=1&tag=html061-20&ServiceVersion=20070822" width="124" height="160" alt="CSS: The Missing Manual"/></a></li>
+                           <li><a href="http://www.amazon.com/gp/product/0596527527/ref=as_li_ss_il?ie=UTF8&tag=html061-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0596527527" title="Learning Web Design: A Beginner's Guide to (X)HTML, StyleSheets, and Web Graphics" target="_blank"><img src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0596527527&MarketPlace=US&ID=AsinImage&WS=1&tag=html061-20&ServiceVersion=20070822" width="124" height="160" alt="Learning Web Design: A Beginner's Guide to (X)HTML, StyleSheets, and Web Graphics"/></a></li>
+                           <li><a href="http://www.amazon.com/gp/product/0240813286/ref=as_li_ss_il?ie=UTF8&tag=html061-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0240813286" title="HTML5: Designing Rich Internet Applications (Visualizing the Web)" target="_blank"><img src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0240813286&MarketPlace=US&ID=AsinImage&WS=1&tag=html061-20&ServiceVersion=20070822" width="124" height="160" alt="HTML5: Designing Rich Internet Applications (Visualizing the Web)"/></a></li>
+                           <li><a href="http://www.amazon.com/gp/product/0672330962/ref=as_li_ss_il?ie=UTF8&tag=html061-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0672330962" title="Sams Teach Yourself Web Publishing with HTML and CSS in One Hour a Day: Includes New HTML5 Coverage (6th Edition)" target="_blank"><img src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0672330962&MarketPlace=US&ID=AsinImage&WS=1&tag=html061-20&ServiceVersion=20070822" width="60" height="60" alt="Sams Teach Yourself Web Publishing with HTML and CSS in One Hour a Day: Includes New HTML5 Coverage (6th Edition)"/></a></li>
+                           <li><a href="http://www.amazon.com/gp/product/0596515898/ref=as_li_ss_il?ie=UTF8&tag=html061-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0596515898" title="JavaScript: The Missing Manual" target="_blank"><img src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=0596515898&MarketPlace=US&ID=AsinImage&WS=1&tag=html061-20&ServiceVersion=20070822" width="60" height="60" alt="JavaScript: The Missing Manual"/></a></li>
+                           <li><a href="http://www.amazon.com/gp/product/1847196705/ref=as_li_ss_il?ie=UTF8&tag=html061-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=1847196705" title="Learning jQuery 1.3 " target="_blank"><img src="http://ws.assoc-amazon.com/widgets/q?_encoding=UTF8&Format=_SL160_&ASIN=1847196705&MarketPlace=US&ID=AsinImage&WS=1&tag=html061-20&ServiceVersion=20070822" width="60" height="60" alt="Learning jQuery 1.3 "/></a></li>
+                       </ul>
+                   </div>
+                   <ul class="amazon_scroller_nav">
+                       <li></li>
+                       <li></li>
+                   </ul>
+                   <div style="clear: both"></div>
+               </div>
+        <h2>Usage</h2>
+    <h3>Add js and css files.</h3>
+        <code>
+       	&lt;link href=&quot;css/amazon_scroller.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;&gt;&lt;/link&gt;<br />
+       	&lt;script type=&quot;text/javascript&quot; src=&quot;js/jquery-1.3.2.min.js&quot;&gt;&lt;/script&gt;<br />
+       	&lt;script type=&quot;text/javascript&quot; src=&quot;js/amazon_scroller.js&quot;&gt;&lt;/script&gt; </code>
+    <h3>Add html tags.</h3>
+    	<pre>
+        &lt;div id=&quot;amazon_scroller&quot; class=&quot;amazon_scroller&quot;&gt;<br />            &lt;div class=&quot;amazon_scroller_mask&quot;&gt;<br />                &lt;ul&gt;<br />                    &lt;li&gt;&lt;a href=&quot;link1&quot; title=&quot;title1&quot;&gt;&lt;img src=&quot;images/scroller_large_1.jpg&quot; width=&quot;60&quot; height=&quot;60&quot; alt=&quot;title&quot;/&gt;&lt;/a&gt;&lt;/li&gt;<br />                    &lt;li&gt;&lt;a href=&quot;link2&quot; title=&quot;title2&quot;&gt;&lt;img src=&quot;images/scroller_large_2.jpg&quot; width=&quot;60&quot; height=&quot;60&quot; alt=&quot;title&quot;/&gt;&lt;/a&gt;&lt;/li&gt;<br />                    &lt;li&gt;&lt;a href=&quot;link3&quot; title=&quot;title3&quot;&gt;&lt;img src=&quot;images/scroller_large_3.jpg&quot; width=&quot;60&quot; height=&quot;60&quot; alt=&quot;title&quot;/&gt;&lt;/a&gt;&lt;/li&gt;<br />                    &lt;li&gt;&lt;a href=&quot;link4&quot; title=&quot;title4&quot;&gt;&lt;img src=&quot;images/scroller_large_4.jpg&quot; width=&quot;60&quot; height=&quot;60&quot; alt=&quot;title&quot;/&gt;&lt;/a&gt;&lt;/li&gt;<br />                    &lt;li&gt;&lt;a href=&quot;link1&quot; title=&quot;title5&quot;&gt;&lt;img src=&quot;images/scroller_large_1.jpg&quot; width=&quot;60&quot; height=&quot;60&quot; alt=&quot;title&quot;/&gt;&lt;/a&gt;&lt;/li&gt;<br />                    &lt;li&gt;&lt;a href=&quot;link2&quot; title=&quot;title6&quot;&gt;&lt;img src=&quot;images/scroller_large_2.jpg&quot; width=&quot;60&quot; height=&quot;60&quot; alt=&quot;title&quot;/&gt;&lt;/a&gt;&lt;/li&gt;<br />                    &lt;li&gt;&lt;a href=&quot;link3&quot; title=&quot;title7&quot;&gt;&lt;img src=&quot;images/scroller_large_3.jpg&quot; width=&quot;60&quot; height=&quot;60&quot; alt=&quot;title&quot;/&gt;&lt;/a&gt;&lt;/li&gt;<br />                    &lt;li&gt;&lt;a href=&quot;link4&quot; title=&quot;title8&quot;&gt;&lt;img src=&quot;images/scroller_large_4.jpg&quot; width=&quot;60&quot; height=&quot;60&quot; alt=&quot;title&quot;/&gt;&lt;/a&gt;&lt;/li&gt;<br />                &lt;/ul&gt;<br />            &lt;/div&gt;<br />            &lt;ul class=&quot;amazon_scroller_nav&quot;&gt;<br />                &lt;li&gt;&lt;/li&gt;<br />                &lt;li&gt;&lt;/li&gt;<br />            &lt;/ul&gt;<br />            &lt;div style=&quot;clear: both&quot;&gt;&lt;/div&gt;<br />        &lt;/div&gt;
+		</pre>
+    <h3>Add start script</h3>
+        <pre>
+                $(&quot;#amazon_scroller3&quot;).amazon_scroller({<br />                    scroller_title_show: 'enable',<span role="presentation">//enable  disable  </span><br />                    scroller_time_interval: '3000',<br />                    scroller_window_background_color: &quot;#FFF&quot;,<br />                    scroller_window_padding: '10',<br />                    scroller_border_size: '2',<br />                    scroller_border_color: '#CCC',<br />                    scroller_images_width: '80',<br />                    scroller_images_height: '60',<br />                    scroller_title_size: '11',<br />                    scroller_title_color: '#000',<br />                    scroller_show_count: '3',<br />                    directory: 'images'<br />                });
+        </pre>
+        <p>More script and css style: <a href="http://www.htmldrive.net/" title="HTML DRIVE - Free DHMTL Scripts,Jquery plugins,Javascript,CSS,CSS3,Html5 Library">htmldrive.net </a></p>
+    </body>
+</html>
