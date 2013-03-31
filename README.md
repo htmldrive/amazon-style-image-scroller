@@ -1,7 +1,9 @@
 Amazon style image and title scroller with jQuery
 =======================
-![Amazon style image and title scroller with jQuery](http://www.htmldrive.net/media/2013/3/30/1364708830.png "Amazon style image and title scroller with jQuery")
-[Demo](http://www.htmldrive.net/items/demo/244/Amazon-style-image-and-title-scroller-with-jQuery-2011.8.30-update-Added-loop-scroll "Amazon style image and title scroller with jQuery")
+
+[![Amazon style image and title scroller with jQuery](http://www.htmldrive.net/media/2013/3/30/1364708830.png "Amazon style image and title scroller with jQuery")](http://www.htmldrive.net/items/show/244/Amazon-style-image-and-title-scroller-with-jQuery "Amazon style image and title scroller with jQuery")
+
+[Demo](http://www.htmldrive.net/items/show/244/Amazon-style-image-and-title-scroller-with-jQuery "Amazon style image and title scroller with jQuery")
 ##Usage
 **Include js and css files.**
 
